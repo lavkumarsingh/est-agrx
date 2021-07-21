@@ -67,11 +67,13 @@
     align-items: center;
     flex-direction: column;
     height: 400px;
+    padding: 250px 0;
 }
 
 .subscribe > p{
     font-size: 22px;
     font-weight: 500;
+    margin-top: 50px;
 }
 
 .subscribe > input[type=submit] {
