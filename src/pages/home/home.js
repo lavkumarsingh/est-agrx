@@ -45,9 +45,9 @@ function home() {
             <section className='section-4'>
                 <div className='contact_us'>
                     <p className='contact_head'>Contact With Us</p>
-                    <p className='address'>500 Terry Francois Street San Francisco, CA 94158</p>
+                    <p className='address'>MIT, Cambridge Innovation Center, Sloan Business School, Cambridge, MA 02139, United States</p>
                     <p className='email'>info@estagrx.com</p>
-                    <p className='phone'>123-456-7890</p>
+                    <p className='phone'>+1 786-554-0579</p>
                 </div>
                 <div className='contact_form'>
                     <form className='form' action='' method='post'>
