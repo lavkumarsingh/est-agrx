@@ -1,0 +1,33 @@
+
+.carousel_container {
+    position: relative;
+}
+
+.carousel-inner {
+    width: 100vw !important;
+}
+
+.text_container {
+    z-index: 1;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tag {
+    font-size: 20px;
+    color: #fff;
+}
+
+.name {
+    font-size: 72px;
+    color: #fff;
+}
+
+.img {
+    width: 100vw;
+    object-fit: cover;
+    height: 680px;
+}
+

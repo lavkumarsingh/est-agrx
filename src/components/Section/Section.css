@@ -1,0 +1,44 @@
+.sec-container {
+    display: flex;
+}
+
+.invert {
+    flex-flow: row-reverse;
+}
+
+.head {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.content {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    margin: 0 12%;
+}
+
+.left > p {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.right {
+    width: 50%;
+    overflow: hidden;
+}
+
+.right > img {
+    width: 100%;
+    object-fit: cover;
+}
