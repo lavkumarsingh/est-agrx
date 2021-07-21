@@ -8,7 +8,9 @@ function about() {
                 <p className='about_heading'>The Link Between Tradition & Modernity</p>
                 <p className='about_decs'>At agrx, we’re invested in building the future of farming, and we want to make 
                             life for farmers as easy and comfortable as possible, regardless of the size of productions 
-                            that they manage.<br/>Giving you full control of your production is our goal, and we will do 
+                            that they manage.
+                            <br/><br/>
+                            Giving you full control of your production is our goal, and we will do 
                             our best to make your crops or herds as productive as possible. To that end, we’ve developed 
                             hi-tech systems and services that help you connect with every step of your production. With 
                             our products, you’ll know exactly what you need to do and when.
