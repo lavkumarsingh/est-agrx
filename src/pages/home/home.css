@@ -5,16 +5,20 @@
 .section-2 {
     width: 100%;
     background-color: #27211e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
-.contact {
-    padding: 150px 400px;
+.techdes {
     word-wrap: break-word;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .heading {
@@ -27,14 +31,14 @@
 .tech {
     text-align: center;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 
 .disc {
     text-align: center;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 
@@ -197,7 +201,7 @@ lable {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 650px;
+    height: 400px;
 }
 
 .subscribe > p{

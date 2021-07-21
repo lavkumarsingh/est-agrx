@@ -9,9 +9,9 @@ import './Navigation.css'
 
 // PAGES
 import Home from '../../pages/home/home'
-import About from '../../pages/about'
-import Technology from '../../pages/technology'
-import Partners from '../../pages/partners'
+import About from '../../pages/about/about'
+import Technology from '../../pages/technology/technology'
+import Partners from '../../pages/partners/partners'
 
 function Nav() {
     return (

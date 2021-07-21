@@ -14,7 +14,7 @@ function home() {
             </section>
             
             <section className='section-2'>
-                <div className='contact'>
+                <div className='techdes'>
                     <p className='heading'>
                     Technology Designed With You in Mind
                     </p>
