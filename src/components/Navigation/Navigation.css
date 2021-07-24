@@ -4,6 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
   }
   
   .logo {
@@ -37,4 +38,17 @@ nav {
     color: white;
     text-decoration: none;
 }
-  
+
+
+
+/* -----------------------------------  */
+
+@media screen and (max-width: 550px) {
+  .logo {
+    display: none;
+  }
+
+  .list_container {
+    margin-left: 50px;
+  }
+}
