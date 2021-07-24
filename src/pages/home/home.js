@@ -30,7 +30,7 @@ function home() {
 
             <section className='section-3'>
                     {
-                        data.map((ele,i) => {
+                        data[0].map((ele,i) => {
                         return  <Section 
                                 key={i}
                                 index={i}
@@ -88,7 +88,13 @@ function home() {
             </section>
 
             <section className='section-5'>
-                <img src='https://static.wixstatic.com/media/229c5fec466b4150a2a89ce7d1344475.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/229c5fec466b4150a2a89ce7d1344475.jpg' alt='' />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8390571953405!2d-122.38931348468252!3d37.77037177976025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fc4fe7ace37%3A0xfa1746dd4faeb818!2s500%20Terry%20A%20Francois%20Blvd%2C%20San%20Francisco%2C%20CA%2094158%2C%20USA!5e0!3m2!1sen!2sin!4v1627155632574!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title='map'>
+            </iframe>
             </section>
 
             <section className='section-6'>

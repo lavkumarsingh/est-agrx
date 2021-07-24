@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React/* , { useState } */ from 'react'
 /* import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close'; */
 import { 
@@ -16,7 +16,7 @@ import Technology from '../../pages/technology/technology'
 import Partners from '../../pages/partners/partners'
 
 function Nav() {
-    const [toggle, setToggle] = useState(false)
+    /* const [toggle, setToggle] = useState(false) */
     return (
         <div>
           <div className='side_nav'>

@@ -323,37 +323,3 @@ lable {
         width: 300px !important;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ******************************* */
-.section-5 {
-    height: 450px;
-    overflow: hidden;
-}
-
-.section-5 > img {
-    width: 100%;
-    height: 100%;
-}
-
-
