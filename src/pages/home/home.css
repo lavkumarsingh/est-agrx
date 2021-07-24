@@ -64,7 +64,7 @@
 .section-4 {
     display: flex;
     background-color: #27211e;
-    height: 750px;
+    padding: 100px;
     color: #fff;
 }
 
@@ -262,6 +262,89 @@ lable {
 
 
 
+/* -------------------------------------- 1450px -------------------------------------- */
+@media screen and (max-width: 1450px) {
+    .contact_us {
+        width: 100%;
+    }
+    .contact_form {
+        width: 100%;
+    }
+    .section-4 {
+        flex-direction: column;
+    }
+}
+
+
+/* -------------------------------------- iPad -------------------------------------- */
+@media screen and (max-width: 768px) {
+    .techdes {
+        width: 100%;
+    }
+    .btn-c {
+        padding: 15px 20px;
+    }
+    .section-3 > div {
+        flex-direction: column-reverse;
+    }
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    .section-4 {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+    }
+    .contact_us {
+        width: 100%;
+    }
+}
+/* -------------------------------------- iPhone X -------------------------------------- */
+@media screen and (max-width: 380px) {
+    .section-2 {
+        padding: 50px 25px;
+    }
+    .section-4 {
+        padding: 50px 50px;
+    }
+    .form_ele {
+        flex-direction: column;
+    }
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ******************************* */
 .section-5 {
     height: 450px;
@@ -270,4 +353,7 @@ lable {
 
 .section-5 > img {
     width: 100%;
+    height: 100%;
 }
+
+
