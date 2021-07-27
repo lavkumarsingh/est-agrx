@@ -1,0 +1,133 @@
+
+nav {
+    background-color: #27211e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    z-index: 2;
+  }
+  
+  .top {
+    height: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+    .top > li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 10px;
+  }
+  
+  .top > li > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .top > a:hover {
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* ------------------ SIDE ------------------  */
+
+
+
+.side_nav {
+    position: fixed;
+    color: #27211e;
+    top: 0;
+    right: -40%;
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+    transition: right 0.3s ease-in-out;
+    z-index: 5;
+}
+
+.side {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.side > div {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.side > div > li {
+text-decoration: none;
+list-style: none;
+padding: 0 10px;
+}
+
+.side >  div > li > a {
+text-decoration: none;
+color: #000;
+font-size: 18px;
+font-weight: 600;
+}
+
+.side >  div > a:hover {
+opacity: 0.8;
+color: white;
+text-decoration: none;
+}
+.menu_icon, .nav_active, .side_nav {
+    display: none;
+}
+
+.nav_active {
+    right: 0;
+    transition: right 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu_icon, .nav_active, .side_nav {
+        display: block;
+    }
+    .top {
+        display: none;
+    }
+}
+
+
+
+.menu_icon {
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+    position: fixed;
+    top: 6%;
+    right: 2%;
+}
+
+.menu_icon > img {
+    max-width:50%;
+    height:auto;
+}
+.logo {
+    height: 40px;
+    width: 150px;
+    margin: 40px;
+    object-fit: cover;
+  }
+.logo > img {
+    max-width: 100%;
+    height: auto;
+}
+  

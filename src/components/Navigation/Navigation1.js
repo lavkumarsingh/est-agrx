@@ -5,7 +5,7 @@ import {
   Link, 
   Switch } from "react-router-dom";
 
-import './Navigation.css'
+import './Navigation1.css'
 
 // PAGES
 import Home from '../../pages/home/home'
@@ -18,22 +18,6 @@ function Nav() {
     return (    
           <Router>
               <nav>
-                {/* LOGO */}
-                <div className='logo'>AGRX</div>
-                <div className='list_container'>
-                  <li>
-                    <Link to='/'>Home</Link>
-                  </li>
-                  <li>
-                    <Link to='/about'>About</Link>
-                  </li>
-                  <li>
-                    <Link to='technology'>Technology</Link>
-                  </li>
-                  <li>
-                    <Link to='partners'>Partners</Link>
-                  </li>
-                </div>
               </nav>
 
               <Switch>
@@ -55,3 +39,24 @@ function Nav() {
 }
 
 export default Nav
+
+
+/* 
+
+                <div className='logo'>AGRX</div>
+                <div className='list_container'>
+                  <li>
+                    <Link to='/'>Home</Link>
+                  </li>
+                  <li>
+                    <Link to='/about'>About</Link>
+                  </li>
+                  <li>
+                    <Link to='technology'>Technology</Link>
+                  </li>
+                  <li>
+                    <Link to='partners'>Partners</Link>
+                  </li>
+                </div>
+
+*/
