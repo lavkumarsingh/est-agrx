@@ -54,4 +54,8 @@
         width: 100%;
         padding: 40px 0;
     }
+
+    .sec-container {
+        flex-direction: column-reverse;
+    }
 }

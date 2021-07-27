@@ -1,6 +1,9 @@
 import React from 'react'
 import './about.css'
 
+import Section from '../../components/Section/Section'
+import data from '../../data/data.json'
+
 function about() {
     return (
         <div className='about_container'>
@@ -18,9 +21,17 @@ function about() {
             </section>
 
             <section className='about_section-2'>
-                <section className='section-5'>
-                    <img src='https://static.wixstatic.com/media/229c5fec466b4150a2a89ce7d1344475.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/229c5fec466b4150a2a89ce7d1344475.jpg' alt='' />
-                </section>
+                    {
+                        data[0].map((ele,i) => {
+                        return  <Section 
+                                key={i}
+                                index={i}
+                                src={ele.src} 
+                                head={ele.head} 
+                                content={ele.content} 
+                            /> 
+                        })
+                    }
             </section>
 
             <section className='about_section-3'>

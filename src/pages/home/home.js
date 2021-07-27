@@ -29,7 +29,7 @@ function home() {
             </section>
 
             <section className='section-3'>
-                    {
+                    { 
                         data[0].map((ele,i) => {
                         return  <Section 
                                 key={i}
