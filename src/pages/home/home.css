@@ -273,13 +273,13 @@ lable {
     .section-4 {
         flex-direction: column;
     }
+    .form {
+        margin-top: 50px;
+    }
 }
 
-/* -------------------------------------- 1200px -------------------------------------- */
+/* -------------------------------------- 1250px -------------------------------------- */
 @media screen and (max-width: 1450px) {
-    .techdes {
-        width: 100%;
-    }
     .btn-c {
         padding: 15px 20px;
     }
@@ -300,6 +300,106 @@ lable {
     }
     .contact_us {
         width: 100%;
+    }
+
+    .section-2 {
+        background-color: #27211e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+    }
+    
+    .heading {
+        text-align: center;
+        font-weight: 300;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .techdes {
+        width: 80% !important;
+        word-wrap: break-word;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tech {
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .disc {
+        text-align: center;
+        font-weight: 100;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .techdes {
+        width: 90% !important;
+        word-wrap: break-word;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2 {
+        padding: 20px !important;
+    }
+
+    .section-4 {
+        padding: 50px 50px;
+    }
+    .form_ele {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+
+    .subject, .message {
+        width: 300px
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .section-4 {
+        padding: 50px 50px;
+    }
+    .form_ele {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+
+    .subject, .message {
+        width: 300px
     }
 }
 
