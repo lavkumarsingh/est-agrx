@@ -61,9 +61,9 @@ function App() {
                         <li>
                           <Link onClick={handleClick} to='technology'>Technology</Link>
                         </li>
-  {/*                       <li>
+                        <li>
                           <Link to='partners'>Partners</Link>
-                        </li> */}
+                        </li>
                       </div>
                     </div>
                     </div>
