@@ -4,16 +4,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    padding: 50px 20px;
     background-color: #27211e;
 }
 
 .about_heading {
     font-size: 42px;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 50px;
-    width: 80%;
-    text-align: center;
+    width: 60%;
 }
 
 .about_decs {
@@ -93,6 +92,37 @@
 .social_handles > div {
     padding: 0 10px;
     margin-top: 80px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .about_heading {
+        font-size: 32px;
+        width: 85%;
+        text-align: center;
+    }
+    
+    .about_decs {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about_heading {
+        font-size: 28px;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .about_decs {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        width: 90%;
+    }
 }
 
 
