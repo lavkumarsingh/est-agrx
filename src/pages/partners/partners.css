@@ -55,11 +55,12 @@
 }
 
 
-/* *****************  */
-
 .partners_section-2 {
     background-color: #27211e;
+    display: flex;
+    justify-content: center;
 }
+
 .subscribe {
     color: #fff;
     display: flex;
