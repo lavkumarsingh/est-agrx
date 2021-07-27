@@ -23,7 +23,7 @@ function Carousel() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item  active">
-                    <img className="d-block w-100 img" src="https://static.wixstatic.com/media/229c5fec466b4150a2a89ce7d1344475.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/229c5fec466b4150a2a89ce7d1344475.jpg" alt='farmer' />
+                    <img className="d-block w-100 img" src="https://static.wixstatic.com/media/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg" alt='farmer' />
                     </div>
                     <div className="carousel-item">
                     <img className="d-block w-100 img" src="https://static.wixstatic.com/media/11062b_088dbac983e7436a80640f1bcfd0b402~mv2.jpeg/v1/fill/w_1903,h_1270,al_c,q_90,usm_0.66_1.00_0.01/11062b_088dbac983e7436a80640f1bcfd0b402~mv2.jpeg" alt='farmer' />
@@ -32,10 +32,10 @@ function Carousel() {
                     <img className="d-block w-100 img" src="https://static.wixstatic.com/media/bdf5c0be508d4bfb8f9ff957d387156a.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/bdf5c0be508d4bfb8f9ff957d387156a.jpg" alt='farmer' />
                     </div>
                     <div className="carousel-item">
-                    <img className="d-block w-100 img" src="https://static.wixstatic.com/media/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg" alt='farmer' />
+                    <img className="d-block w-100 img" src="https://static.wixstatic.com/media/11062b_89d64fe6a4e346ee80847d38a9e4c991~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_89d64fe6a4e346ee80847d38a9e4c991~mv2.jpg" alt='farmer' />
                     </div>
                     <div className="carousel-item">
-                    <img className="d-block w-100 img" src="https://static.wixstatic.com/media/11062b_89d64fe6a4e346ee80847d38a9e4c991~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_89d64fe6a4e346ee80847d38a9e4c991~mv2.jpg" alt='farmer' />
+                    <img className="d-block w-100 img" src="https://static.wixstatic.com/media/229c5fec466b4150a2a89ce7d1344475.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/229c5fec466b4150a2a89ce7d1344475.jpg" alt='farmer' />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
@@ -55,11 +55,11 @@ export default Carousel
 
 
 /* 
+https://static.wixstatic.com/media/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg
 
-https://static.wixstatic.com/media/229c5fec466b4150a2a89ce7d1344475.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/229c5fec466b4150a2a89ce7d1344475.jpg
+
 https://static.wixstatic.com/media/11062b_088dbac983e7436a80640f1bcfd0b402~mv2.jpeg/v1/fill/w_1903,h_1270,al_c,q_90,usm_0.66_1.00_0.01/11062b_088dbac983e7436a80640f1bcfd0b402~mv2.jpeg
 https://static.wixstatic.com/media/bdf5c0be508d4bfb8f9ff957d387156a.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/bdf5c0be508d4bfb8f9ff957d387156a.jpg
-https://static.wixstatic.com/media/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg
 https://static.wixstatic.com/media/229c5fec466b4150a2a89ce7d1344475.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/229c5fec466b4150a2a89ce7d1344475.jpg
 https://static.wixstatic.com/media/11062b_89d64fe6a4e346ee80847d38a9e4c991~mv2.jpg/v1/fill/w_1903,h_1268,al_c,q_90,usm_0.66_1.00_0.01/11062b_89d64fe6a4e346ee80847d38a9e4c991~mv2.jpg
 
