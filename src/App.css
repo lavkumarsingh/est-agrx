@@ -1,4 +1,6 @@
-
+.App {
+    z-index: -1;
+}
 nav {
     background-color: #27211e;
     display: flex;

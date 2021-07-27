@@ -23,6 +23,10 @@ function App() {
   function handleClick() {
     toggle ? setToggle(false) : setToggle(true)
   }
+
+  function focus() {
+    setToggle(false)
+  }
   return (
     <div className="App">
           <Router>
@@ -53,22 +57,22 @@ function App() {
                     <div className='side'>
                       <div>
                         <li>
-                          <Link onClick={handleClick} to='/'>Home</Link>
+                          <Link onClick={focus} to='/'>Home</Link>
                         </li>
                         <li>
-                          <Link onClick={handleClick} to='/about'>About</Link>
+                          <Link onClick={focus} to='/about'>About</Link>
                         </li>
                         <li>
-                          <Link onClick={handleClick} to='technology'>Technology</Link>
+                          <Link onClick={focus} to='technology'>Technology</Link>
                         </li>
                         <li>
-                          <Link to='partners'>Partners</Link>
+                          <Link onClick={focus} to='partners'>Partners</Link>
                         </li>
                       </div>
                     </div>
                     </div>
                   </nav>
-
+                  <div  onClick={focus}>
                   <Switch>
                     <Route path='/about'>
                       <About />
@@ -83,6 +87,7 @@ function App() {
                       <Home />
                     </Route>
                   </Switch>
+                  </div>
               </Router>
       </div>
   );
@@ -98,5 +103,14 @@ export default App;
         <div className={`side_nav ${toggle ? 'nav_active' : ''}`}>  
         </div>
       </div>
+
+*/
+
+
+/* 
+
+1. RSDTP
+2. DTP ID
+3. Execute 
 
 */
