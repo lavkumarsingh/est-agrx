@@ -9,7 +9,7 @@
 }
 
 .about_heading {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 300;
     margin-bottom: 50px;
     width: 60%;
@@ -20,7 +20,7 @@
     font-size: 20px;
     font-weight: 200;
     text-align: center;
-    width: 50%;
+    width: 60%;
 }
 
 .about_section-3 {
@@ -98,9 +98,8 @@
 
 @media screen and (max-width: 750px) {
     .about_heading {
-        font-size: 32px;
-        width: 85%;
-        text-align: center;
+        font-size: 32px !important;
+        width: 85% !important;
     }
     
     .about_decs {
@@ -113,9 +112,8 @@
 
 @media screen and (max-width: 420px) {
     .about_heading {
-        font-size: 28px;
-        width: 90%;
-        text-align: center;
+        font-size: 32px !important;
+        width: 90% !important;
     }
     
     .about_decs {
@@ -124,15 +122,4 @@
         text-align: center;
         width: 90%;
     }
-}
-
-
-/* ******************************* */
-.section-5 {
-    height: 600px;
-    overflow: hidden;
-}
-
-.section-5 > img {
-    width: 100%;
 }

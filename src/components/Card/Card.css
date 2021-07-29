@@ -1,0 +1,32 @@
+.card {
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+    border: hidden;
+    box-shadow: 0 0 50px rgba(37, 37, 37, 0.15);
+}
+
+.card_img {
+    object-fit: cover;
+    width: auto;
+    height: 300px;
+    width: 400px;
+}
+
+.card_container {
+    padding: 20px 50px;
+}
+
+.card_title {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card_text {
+    font-size: 18px;
+    font-weight: 300;
+}

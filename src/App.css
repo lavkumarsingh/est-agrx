@@ -63,7 +63,7 @@ nav {
     font-weight: 800;
     color: #ffffff;
     background-color: #12c855;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ nav {
     justify-content: space-around;
     align-items: flex-start;
     padding: 0 20px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .side > .routes > li {
@@ -137,7 +137,7 @@ text-decoration: none;
     z-index: 10;
     position: fixed;
     top: 40px;
-    right: 60px;
+    right: 40px;
     cursor: pointer;
 }
 
@@ -206,5 +206,9 @@ text-decoration: none;
     .side > .routes > li > a {
         font-size: 14px;
         font-weight: 400;
+    }
+
+    .button_side {
+        padding: 10px 60px;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './technology.css'
-import Section from '../../components/Section/Section'
+import Card from '../../components/Card/Card'
 
 import data from '../../data/data.json'
 
@@ -9,8 +9,7 @@ function technology() {
         <div>
             <section className='section-2'>
                 <div className='techdes'>
-
-                    <p className='tech'>
+                    <p className='decs'>
                     Protect and preserve the natural environment: Without a healthy natural environment where native flora and fauna live productively, long-term sustainable agricultural practices will fail. Farms must be developed in conjunction and cooperation with local ecology.
                     </p>
                 </div>
@@ -18,17 +17,17 @@ function technology() {
             <section className='section-3'>
                     {
                         data[1].map((ele,i) => {
-                        return  <Section 
+                        return  <Card 
                                 key={i}
-                                index={i}
                                 src={ele.src} 
-                                head={ele.head} 
-                                content={ele.content} 
+                                heading={ele.head} 
+                                text={ele.content} 
+                                className='card_ele'
                             /> 
                         })
                     }
             </section>
-            <section className='section-6'>
+            <section className='section-4'>
                 <div className='subscribe'>
                     <p>Subscribe</p>
                     <input type='email' placeholder='Email Address' />
