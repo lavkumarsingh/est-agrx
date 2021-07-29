@@ -193,6 +193,9 @@ lable {
 
 .section-6 {
     background-color: #27211e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subscribe {
@@ -362,7 +365,7 @@ lable {
         align-items: flex-start;
     }
     .subscribe {
-        padding: 50px 0;
+        width: 400px;
     }
     .subscribe > input[type=email] {
         width: 300px !important;
@@ -409,6 +412,7 @@ lable {
     }
     .subscribe {
         padding: 50px 0;
+        width: 500px;
     }
     .subscribe > input[type=email] {
         width: 300px !important;

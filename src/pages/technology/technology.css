@@ -99,18 +99,22 @@
     .section-3 {
         padding: 10px 20px;
     }
+
+    .subscribe {
+        width: 80%;
+    }
 }
 
 /* -------------------------------------- iPad -------------------------------------- */
 @media screen and (max-width: 768px) {
     .subscribe {
-        width: 50%;
+        width: 80%;
     }
     
     .decs {
         width: 90%;
     }
-
+    
     .section-3 {
         padding: 10px 5px;
     }
