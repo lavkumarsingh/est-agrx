@@ -87,16 +87,7 @@
     padding: 0 10px;
     margin-top: 80px;
 }
-/* -------------------------------------- iPad -------------------------------------- */
-@media screen and (max-width: 768px) {
-    .right {
-        width: 100%;
-    }
-    .left {
-        width: 100%;
-        padding: 40px 0;
-    }
-}
+
 /* -------------------------------------- iPad -------------------------------------- */
 @media screen and (max-width: 768px) {
     .techdes {
@@ -113,6 +104,7 @@
     }
     .left {
         width: 100%;
+        padding: 40px 0;
     }
     .subscribe {
         width: 50%;

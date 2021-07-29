@@ -8,21 +8,18 @@ function about() {
     return (
         <div className='about_container'>
             <section className='about_section-1'>
-                <p className='about_heading'>The Link Between Tradition & Modernity</p>
-                <p className='about_decs'>At agrx, we’re invested in building the future of farming, and we want to make 
-                            life for farmers as easy and comfortable as possible, regardless of the size of productions 
-                            that they manage.
-                            <br/><br/>
-                            Giving you full control of your production is our goal, and we will do 
-                            our best to make your crops or herds as productive as possible. To that end, we’ve developed 
-                            hi-tech systems and services that help you connect with every step of your production. With 
-                            our products, you’ll know exactly what you need to do and when.
+                <p className='about_heading'>The Link Between Tradition and Modernity</p>
+                <p className='about_decs'>Agrx is here to transform the agro world. We are 
+                building the future of farming by designing our products for producers, growers, 
+                consumers, suppliers and all involved in supply chain of the agriculture industry. 
+                Agrx delivers what you need with quantity and accuracy. Agrx is a mobile application 
+                aiming to improve the agro world with following features:
                 </p>
             </section>
 
             <section className='about_section-2'>
                     {
-                        data[0].map((ele,i) => {
+                        data[2].map((ele,i) => {
                         return  <Section 
                                 key={i}
                                 index={i}

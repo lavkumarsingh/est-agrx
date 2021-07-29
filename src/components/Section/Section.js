@@ -19,7 +19,7 @@ function Section(props) {
                 <img src={props.src} alt='' />
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Section

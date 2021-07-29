@@ -13,13 +13,14 @@
     font-weight: 300;
     margin-bottom: 50px;
     width: 60%;
+    text-align: center;
 }
 
 .about_decs {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
     text-align: center;
-    width: 60%;
+    width: 50%;
 }
 
 .about_section-3 {

@@ -58,6 +58,34 @@
             "content": "Weather forecasts for agriculture can be grouped into short range forecast (up to 48 hours), medium range forecast (3-10 days) and long range forecast (one week to entire season). Each plays an important role in farm operations and planning of agricultural activities. Most important efforts since time immemorial have been on rain making and weather for casting. Some of the indigenous practices are recorded here.",
             "src":"https://static.wixstatic.com/media/8dadcf_6eaa7adb09354e339c211d9e48df3842~mv2.jpg/v1/fill/w_316,h_310,al_c,q_80,usm_0.66_1.00_0.01/weather.webp"
            }
+        ],
+
+        [
+            {
+                "head": "Digital Onboarding",
+                "content": "We offer digital onboarding that leverages the availability of digital tools and technology for farmers to mitigate the challenges faced by them and the value chain stakeholders and their interaction through the agricultural cycle.",
+                "src":"https://static.wixstatic.com/media/nsplsh_85bbc2d8b01e418fa8d005c542a49676~mv2.jpg/v1/fill/w_324,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Chris%20Lee.webp"
+            },
+            {
+                "head": "Plant Disease Detection",
+                "content": "Producer can take their production yields to a new level with our technology by keeping their plants healthy through image recognition technology for disease detection and providing complete details of your plant’s health. Additionally, it offers guidance to improve your pest management decision more accurately and setup your managing tools for all sorts of variables like weather change, genetics and more.",
+                "src": "https://static.wixstatic.com/media/nsplsh_48766f362c954b1298611fbc9531b096~mv2.jpg/v1/fill/w_324,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Zoe%20Schaeffer.webp"
+            },
+            {
+                "head": "Supply Chain",
+                "content": "Agrx believes that supply chain in the field of agriculture should work more efficiently for benefits of all chain partners and planet earth. In our view no party is capable of making high quality and sustainable products on its own, so we need to improve the collaboration between companies both horizontally and vertically in the chain to deliver enormous benefits and a win win situation for all involved. We deliver traceability, trading, alerts, auditing, monitoring and business intelligence along with the supply chain.",
+                "src":"https://static.wixstatic.com/media/8dadcf_6656c796edac41759045e459813a5390~mv2.jpg/v1/fill/w_952,h_540,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/8dadcf_6656c796edac41759045e459813a5390~mv2.webp"
+               },
+               {
+                "head": "Blockchain",
+                "content": "In Agrx, we have a vision that blockchain will relentlessly build the future of agriculture as it can empower grower, broker and logistics. We focus on enabling peer-to-peer agricultural transactions through smart contracts, supporting farmers in tracing food origin, decentralised insurance application, transparent food supply chain, controlling weather crisis and managing finances for farmers.",
+                "src":"https://static.wixstatic.com/media/nsplsh_1e3a4b7140de472eb8893fa54c7caecc~mv2.jpg/v1/fill/w_393,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Terry.webp"
+               },
+               {
+                "head": "Micro Finance",
+                "content": "Agrx aims to be the financial service provider of choice for our rural customers and stakeholders and be recognised for our agri-finance focus, innovation with high ethical standards and transparency. We believe in our people and would partner in their success and be committed to enrich the lives of our rural clientele.",
+                "src":"https://static.wixstatic.com/media/8dadcf_475c8fa38874442c851be0a11039ae65~mv2.png/v1/fill/w_349,h_262,al_c,q_85,usm_0.66_1.00_0.01/Agriculture%20Supply%20chain.webp"
+               }
         ]
 ]
 

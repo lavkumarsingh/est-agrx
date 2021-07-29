@@ -37,6 +37,21 @@
     .carousel-indicators {
         display: none;
     }
+
+    .tag {
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .name {
+        font-size: 52px;
+        color: #fff;
+    }
+
+    .text_container {
+        left: 50%;
+        top: 65%;
+    }
 }
 
 

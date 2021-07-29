@@ -283,9 +283,6 @@ lable {
     .btn-c {
         padding: 15px 20px;
     }
-    .section-3 > div {
-        flex-direction: column-reverse;
-    }
     .right {
         width: 100% !important;
     }
@@ -379,7 +376,29 @@ lable {
     }
 }
 
-@media screen and (max-width: 760px) {
+/* -------------------------------------- iPad -------------------------------------- */
+@media screen and (max-width: 768px) {
+    .techdes {
+        width: 100%;
+    }
+    .btn-c {
+        padding: 15px 20px;
+    }
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    .section-4 {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+    }
+    .contact_us {
+        width: 100%;
+    }
+
     .section-4 {
         padding: 50px 50px;
     }
@@ -400,34 +419,6 @@ lable {
 
     .subject, .message {
         width: 300px
-    }
-}
-
-
-/* -------------------------------------- iPad -------------------------------------- */
-@media screen and (max-width: 768px) {
-    .techdes {
-        width: 100%;
-    }
-    .btn-c {
-        padding: 15px 20px;
-    }
-    .section-3 > div {
-        flex-direction: column-reverse;
-    }
-    .right {
-        width: 100%;
-    }
-    .left {
-        width: 100%;
-    }
-    .section-4 {
-        flex-direction: column;
-        align-items: center;
-        padding: 100px;
-    }
-    .contact_us {
-        width: 100%;
     }
 }
 /* -------------------------------------- iPhone X -------------------------------------- */
@@ -451,3 +442,28 @@ lable {
         width: 300px !important;
     }
 }
+
+
+/* @media screen and (max-width: 760px) {
+    .section-4 {
+        padding: 50px 50px;
+    }
+    .form_ele {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+
+    .subject, .message {
+        width: 300px
+    }
+} */
