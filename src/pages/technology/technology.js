@@ -16,7 +16,7 @@ function technology() {
             </section>
             <section className='tech_section-3'>
                     {
-                        data[1].map((ele,i) => {
+                        data[2].map((ele,i) => {
                         return  <Card 
                                 key={i}
                                 src={ele.src} 

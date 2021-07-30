@@ -19,7 +19,7 @@ function about() {
 
             <section className='about_section-2'>
                     {
-                        data[2].map((ele,i) => {
+                        data[1].map((ele,i) => {
                         return  <Section 
                                 key={i}
                                 index={i}

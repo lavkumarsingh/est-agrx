@@ -26,39 +26,6 @@
         "src":"https://static.wixstatic.com/media/8dadcf_df5840a11c6949b1a792a574eaf06be5~mv2.png/v1/fill/w_844,h_540,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01/8dadcf_df5840a11c6949b1a792a574eaf06be5~mv2.webp"
        }
     ],
-    
-    [
-        {
-            "head": "More than 200 Diseases",
-            "content": "200 + diseases get automatically diagnosed along with their chemical and biological treatment though our mobile App.  Farming techniques such as agroforestry, organic agriculture, and permaculture are more sustainable and practical on a small, rural scale. Poor farmers need to learn about these techniques and have access to the resources they need in order to implement them.",
-            "src": "https://static.wixstatic.com/media/nsplsh_85bbc2d8b01e418fa8d005c542a49676~mv2.jpg/v1/fill/w_324,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Chris%20Lee.webp"
-        },
-        {
-            "head": "Farmer Community",
-            "content": "Every region has unique characteristics and therefore unique needs. Individualized programs and Farmer Community that meet the needs of specific regions are more likely to succeed. This is the approach used by the Millennium Villages Project.",
-            "src": "https://static.wixstatic.com/media/nsplsh_48766f362c954b1298611fbc9531b096~mv2.jpg/v1/fill/w_324,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Zoe%20Schaeffer.webp"
-        },
-        {
-            "head": "Soil Testing",
-            "content": "Healthy soil is the foundation of a healthy farm and leads to increased crop yields. Rebuilding soil after intensive cultivation is necessary to maintain soil productivity. Essential soil nutrients can be replenished through techniques such as fertilization, composting, inter-planting, and crop and field rotation.",
-            "src":"https://static.wixstatic.com/media/8dadcf_6656c796edac41759045e459813a5390~mv2.jpg/v1/fill/w_952,h_540,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/8dadcf_6656c796edac41759045e459813a5390~mv2.webp"
-           },
-           {
-            "head": "Blockchain in Agriculture",
-            "content": "Blockchain Helps Build Trust Across the Entire Supply Chain. Discover How Our Company Trust Makes it Possible to Deliver Transformative Business Results. Enhance Brand Reputation. Enrich Food Trust Data. Prove Sustainability. Minimise Waste. The blockchain technology enables the traceability of information in the food supply chain and thus helps improve food safety. It provides a secure way of storing and managing data, which facilitates the development and use of data-driven innovations for smart farming and smart index-based agriculture insurance.",
-            "src":"https://static.wixstatic.com/media/nsplsh_1e3a4b7140de472eb8893fa54c7caecc~mv2.jpg/v1/fill/w_393,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Terry.webp"
-           },
-           {
-            "head": "Supply Chain",
-            "content": "Today’s information-driven, integrated supply chains are enabling organizations to reduce inventory and costs, add product value, extend resources, accelerate time to market, and retain customers.",
-            "src":"https://static.wixstatic.com/media/8dadcf_475c8fa38874442c851be0a11039ae65~mv2.png/v1/fill/w_349,h_262,al_c,q_85,usm_0.66_1.00_0.01/Agriculture%20Supply%20chain.webp"
-           },
-           {
-            "head": "Weather Updates",
-            "content": "Weather forecasts for agriculture can be grouped into short range forecast (up to 48 hours), medium range forecast (3-10 days) and long range forecast (one week to entire season). Each plays an important role in farm operations and planning of agricultural activities. Most important efforts since time immemorial have been on rain making and weather for casting. Some of the indigenous practices are recorded here.",
-            "src":"https://static.wixstatic.com/media/8dadcf_6eaa7adb09354e339c211d9e48df3842~mv2.jpg/v1/fill/w_316,h_310,al_c,q_80,usm_0.66_1.00_0.01/weather.webp"
-           }
-        ],
 
         [
             {
@@ -86,7 +53,40 @@
                 "content": "Agrx aims to be the financial service provider of choice for our rural customers and stakeholders and be recognised for our agri-finance focus, innovation with high ethical standards and transparency. We believe in our people and would partner in their success and be committed to enrich the lives of our rural clientele.",
                 "src":"https://static.wixstatic.com/media/8dadcf_475c8fa38874442c851be0a11039ae65~mv2.png/v1/fill/w_349,h_262,al_c,q_85,usm_0.66_1.00_0.01/Agriculture%20Supply%20chain.webp"
                }
-        ]
+        ],         
+        [
+            
+            {
+                "head": "Supply Chain",
+                "content": "Today’s information-driven, integrated supply chains are enabling organizations to reduce inventory and costs, add product value, extend resources, accelerate time to market, and retain customers.",
+                "src":"https://static.wixstatic.com/media/8dadcf_475c8fa38874442c851be0a11039ae65~mv2.png/v1/fill/w_349,h_262,al_c,q_85,usm_0.66_1.00_0.01/Agriculture%20Supply%20chain.webp"
+            },        
+            {
+                "head": "Farmer Community",
+                "content": "Every region has unique characteristics and therefore unique needs. Individualized programs and Farmer Community that meet the needs of specific regions are more likely to succeed. This is the approach used by the Millennium Villages Project.",
+                "src": "https://static.wixstatic.com/media/nsplsh_48766f362c954b1298611fbc9531b096~mv2.jpg/v1/fill/w_324,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Zoe%20Schaeffer.webp"
+            },
+            {
+                "head": "Soil Testing",
+                "content": "Healthy soil is the foundation of a healthy farm and leads to increased crop yields. Rebuilding soil after intensive cultivation is necessary to maintain soil productivity. Essential soil nutrients can be replenished through techniques such as fertilization, composting, inter-planting, and crop and field rotation.",
+                "src":"https://static.wixstatic.com/media/8dadcf_6656c796edac41759045e459813a5390~mv2.jpg/v1/fill/w_952,h_540,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/8dadcf_6656c796edac41759045e459813a5390~mv2.webp"
+            },
+            {
+                "head": "Blockchain in Agriculture",
+                "content": "Blockchain Helps Build Trust Across the Entire Supply Chain. Discover How Our Company Trust Makes it Possible to Deliver Transformative Business Results. Enhance Brand Reputation. Enrich Food Trust Data. Prove Sustainability. Minimise Waste. The blockchain technology enables the traceability of information in the food supply chain and thus helps improve food safety. It provides a secure way of storing and managing data, which facilitates the development and use of data-driven innovations for smart farming and smart index-based agriculture insurance.",
+                "src":"https://static.wixstatic.com/media/nsplsh_1e3a4b7140de472eb8893fa54c7caecc~mv2.jpg/v1/fill/w_393,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Terry.webp"
+            },
+            {
+                "head": "More than 200 Diseases",
+                "content": "200 + diseases get automatically diagnosed along with their chemical and biological treatment though our mobile App.  Farming techniques such as agroforestry, organic agriculture, and permaculture are more sustainable and practical on a small, rural scale. Poor farmers need to learn about these techniques and have access to the resources they need in order to implement them.",
+                "src": "https://static.wixstatic.com/media/nsplsh_85bbc2d8b01e418fa8d005c542a49676~mv2.jpg/v1/fill/w_324,h_262,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Chris%20Lee.webp"
+                },
+            {
+                "head": "Weather Updates",
+                "content": "Weather forecasts for agriculture can be grouped into short range forecast (up to 48 hours), medium range forecast (3-10 days) and long range forecast (one week to entire season). Each plays an important role in farm operations and planning of agricultural activities. Most important efforts since time immemorial have been on rain making and weather for casting. Some of the indigenous practices are recorded here.",
+                "src":"https://static.wixstatic.com/media/8dadcf_6eaa7adb09354e339c211d9e48df3842~mv2.jpg/v1/fill/w_316,h_310,al_c,q_80,usm_0.66_1.00_0.01/weather.webp"
+            }
+            ]
 ]
 
 
