@@ -14,7 +14,7 @@ function technology() {
                     </p>
                 </div>
             </section>
-            <section className='section-3'>
+            <section className='tech_section-3'>
                     {
                         data[1].map((ele,i) => {
                         return  <Card 
