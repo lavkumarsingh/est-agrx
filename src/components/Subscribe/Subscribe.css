@@ -1,0 +1,133 @@
+.subscribe_container {
+    background-color: #27211e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.subscribe > p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.subscribe > input[type=submit] {
+    background-color: #fff;
+    margin: 10px 12px;
+    width: 500px;
+    height: 40px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.subscribe > input[type=email] {
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    margin: 12px 10px;
+
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #fff;
+    font-size: 18px;
+    color: #fff;
+}
+
+.subscribe > input[type=email]:focus {
+    background-color: #fff;
+    outline: none;
+    color: #000;
+}
+
+.subscribe > input[type=email]:hover {
+    border-width: 2px;
+}
+
+.subscribe > input[type=email]::placeholder {
+    opacity: 1;
+    color: #fff;
+    font-weight: 300;
+}
+
+.social_handles {
+    display: flex;
+}
+
+.social_handles > div {
+    padding: 0 10px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+    .subscribe {
+        width: 300px !important;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+
+    .subject, .message {
+        width: 300px
+    }
+}
+
+/* -------------------------------------- iPad -------------------------------------- */
+@media screen and (max-width: 768px) {
+    .subscribe {
+        padding: 50px 0;
+        width: 500px;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+
+    .subject, .message {
+        width: 300px
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .subscribe {
+        width: 400px;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+
+    .subject, .message {
+        width: 300px
+    }
+}
+
+/* -------------------------------------- iPhone X -------------------------------------- */
+@media screen and (max-width: 380px) {
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe > input[type=email] {
+        width: 300px !important;
+    }
+    .subscribe > input[type=submit] {
+        width: 300px !important;
+    }
+}

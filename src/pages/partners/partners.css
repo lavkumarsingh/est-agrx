@@ -60,69 +60,6 @@
     justify-content: center;
 }
 
-.subscribe {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    padding: 250px 0;
-}
-
-.subscribe > p{
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 50px;
-}
-
-.subscribe > input[type=submit] {
-    background-color: #fff;
-    width: 500px;
-    height: 40px;
-    padding: 10px 25px;
-    border: none;
-    outline: none;
-    color: #000;
-}
-
-.subscribe > input[type=email] {
-    width: 500px;
-    height: 40px;
-    padding: 5px;
-
-    background-color: transparent;
-    border-style: solid;
-    border-width: 0 0 2px 0;
-    border-color: #fff;
-    font-size: 18px;
-    color: #fff;
-}
-
-.subscribe > input[type=email]:focus {
-    background-color: #fff;
-    outline: none;
-    color: #000;
-}
-
-.subscribe > input[type=email]:hover {
-    border-width: 2px;
-}
-
-.subscribe > input[type=email]::placeholder {
-    opacity: 1;
-    color: #fff;
-    font-weight: 300;
-}
-
-.social_handles {
-    display: flex;
-}
-
-.social_handles > div {
-    padding: 0 10px;
-}
-
 @media screen and (max-width: 1250px) {
     .partners {
         justify-content: center;

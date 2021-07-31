@@ -28,93 +28,17 @@
     justify-content: center;
 }
 
-.subscribe {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    padding: none !important;
-    width: 30%;
-}
-
-.subscribe > p{
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.subscribe > input[type=submit] {
-    background-color: #fff;
-    margin: 10px 12px;
-    width: 100% !important;
-    height: 40px;
-    padding: 10px 25px;
-    border: none;
-    outline: none;
-    color: #000;
-}
-
-.subscribe > input[type=email] {
-    width: 100% !important;
-    height: 40px;
-    padding: 5px;
-    margin: 12px 10px;
-
-    background-color: transparent;
-    border-style: solid;
-    border-width: 0 0 2px 0;
-    border-color: #fff;
-    font-size: 18px;
-    color: #fff;
-}
-
-.subscribe > input[type=email]:focus {
-    background-color: #fff;
-    outline: none;
-    color: #000;
-}
-
-.subscribe > input[type=email]:hover {
-    border-width: 2px;
-}
-
-.subscribe > input[type=email]::placeholder {
-    opacity: 1;
-    color: #fff;
-    font-weight: 300;
-}
-
-.social_handles {
-    display: flex;
-}
-
-.social_handles > div {
-    padding: 0 10px;
-    margin-top: 80px;
-}
-
-
 @media screen and (max-width: 1100px) {
     .tech_section-3 {
         padding: 10px 20px;
-    }
-
-    .subscribe {
-        width: 80%;
     }
 }
 
 /* -------------------------------------- iPad -------------------------------------- */
 @media screen and (max-width: 768px) {
-    .subscribe {
-        width: 80%;
-    }
-    
     .decs {
         width: 90%;
-    }
-    
+    }    
     .tech_section-3 {
         padding: 10px 5px;
     }

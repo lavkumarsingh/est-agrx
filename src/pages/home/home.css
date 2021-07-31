@@ -190,80 +190,9 @@ lable {
     font-weight: 300;
 }
 
-
-.section-6 {
-    background-color: #27211e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-5 {
+    height: 500px;
 }
-
-.subscribe {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-}
-
-.subscribe > p{
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.subscribe > input[type=submit] {
-    background-color: #fff;
-    margin: 10px 12px;
-    width: 500px;
-    height: 40px;
-    padding: 10px 25px;
-    border: none;
-    outline: none;
-    color: #000;
-}
-
-.subscribe > input[type=email] {
-    width: 500px;
-    height: 40px;
-    padding: 5px;
-    margin: 12px 10px;
-
-    background-color: transparent;
-    border-style: solid;
-    border-width: 0 0 2px 0;
-    border-color: #fff;
-    font-size: 18px;
-    color: #fff;
-}
-
-.subscribe > input[type=email]:focus {
-    background-color: #fff;
-    outline: none;
-    color: #000;
-}
-
-.subscribe > input[type=email]:hover {
-    border-width: 2px;
-}
-
-.subscribe > input[type=email]::placeholder {
-    opacity: 1;
-    color: #fff;
-    font-weight: 300;
-}
-
-.social_handles {
-    display: flex;
-}
-
-.social_handles > div {
-    padding: 0 10px;
-    margin-top: 80px;
-}
-
-
-
 
 /* -------------------------------------- 1450px -------------------------------------- */
 @media screen and (max-width: 1450px) {
@@ -364,19 +293,6 @@ lable {
         justify-content: left;
         align-items: flex-start;
     }
-    .subscribe {
-        width: 400px;
-    }
-    .subscribe > input[type=email] {
-        width: 300px !important;
-    }
-    .subscribe > input[type=submit] {
-        width: 300px !important;
-    }
-
-    .subject, .message {
-        width: 300px
-    }
 }
 
 /* -------------------------------------- iPad -------------------------------------- */
@@ -410,20 +326,6 @@ lable {
         justify-content: left;
         align-items: flex-start;
     }
-    .subscribe {
-        padding: 50px 0;
-        width: 500px;
-    }
-    .subscribe > input[type=email] {
-        width: 300px !important;
-    }
-    .subscribe > input[type=submit] {
-        width: 300px !important;
-    }
-
-    .subject, .message {
-        width: 300px
-    }
 }
 /* -------------------------------------- iPhone X -------------------------------------- */
 @media screen and (max-width: 380px) {
@@ -436,38 +338,4 @@ lable {
     .form_ele {
         flex-direction: column;
     }
-    .subscribe {
-        padding: 50px 0;
-    }
-    .subscribe > input[type=email] {
-        width: 300px !important;
-    }
-    .subscribe > input[type=submit] {
-        width: 300px !important;
-    }
 }
-
-
-/* @media screen and (max-width: 760px) {
-    .section-4 {
-        padding: 50px 50px;
-    }
-    .form_ele {
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
-    }
-    .subscribe {
-        padding: 50px 0;
-    }
-    .subscribe > input[type=email] {
-        width: 300px !important;
-    }
-    .subscribe > input[type=submit] {
-        width: 300px !important;
-    }
-
-    .subject, .message {
-        width: 300px
-    }
-} */
